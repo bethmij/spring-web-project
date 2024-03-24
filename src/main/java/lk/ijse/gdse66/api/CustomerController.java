@@ -35,4 +35,9 @@ public class CustomerController {
         System.out.printf("%s : %s", id, customer);
     }
 
+    @GetMapping("/{id}")
+    public CustomerDTO searchCustomer(@PathVariable("id") String id){
+        return new CustomerDTO("C00-004", "Kusum", "Matara", 60000);
+    }
+
 }
