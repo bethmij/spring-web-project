@@ -1,7 +1,7 @@
 export var customerDTO = {
-    cusID : '',
-    cusName: '',
-    cusAddress : '',
-    cusSalary : '',
+    id : '',
+    name: '',
+    address : '',
+    salary : '',
 }
 

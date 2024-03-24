@@ -29,12 +29,12 @@ public class CustomerController {
 
     @DeleteMapping(value = "/{id}")
     public void deleteCustomer(@PathVariable("id") String id){
-        System.out.printf("cusID : %s",id);
+        System.out.printf("\ncusID : %s ",id);
     }
 
     @PatchMapping(value = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
     public void updateCustomer(@PathVariable("id") String id, @RequestBody CustomerDTO customer){
-        System.out.printf("%s : %s", id, customer);
+        System.out.printf("\n%s : %s ", id, customer);
     }
 
     @GetMapping("/{id}")

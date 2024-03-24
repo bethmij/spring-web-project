@@ -19,10 +19,10 @@ getAll();
 
 btnCustomerSave.click(function (event){
     let newCustomer = Object.assign({}, customerDTO);
-    newCustomer.cusID = cusId.val();
-    newCustomer.cusName = cusName.val();
-    newCustomer.cusAddress = cusAddress.val();
-    newCustomer.cusSalary = cusSalary.val();
+    newCustomer.id = cusId.val();
+    newCustomer.name = cusName.val();
+    newCustomer.address = cusAddress.val();
+    newCustomer.salary = cusSalary.val();
 
     if(btnCustomerSave.text()==="Save ") {
         event.preventDefault();
@@ -87,13 +87,13 @@ btnCustomerSave.click(function (event){
             if (value === "catch") {
 
                 let newCustomer = Object.assign({}, customerDTO);
-                newCustomer.cusID = cusId.val();
-                newCustomer.cusName = cusName.val();
-                newCustomer.cusAddress = cusAddress.val();
-                newCustomer.cusSalary = cusSalary.val();
+                newCustomer.id = cusId.val();
+                newCustomer.name = cusName.val();
+                newCustomer.address = cusAddress.val();
+                newCustomer.salary = cusSalary.val();
 
                 $.ajax({
-                    url: "http://localhost:8080/spring/customers/"+newCustomer.cusID,
+                    url: "http://localhost:8080/spring/customers/"+newCustomer.id,
                     method: "PATCH",
                     contentType: "application/json",
                     data: JSON.stringify(newCustomer),
