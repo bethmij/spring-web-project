@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024c49e-2f98-47f0-9aa9-a5f230136f46" name="Changes" comment="app initializer updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/dto/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f024c49e-2f98-47f0-9aa9-a5f230136f46" name="Changes" comment="getAll customer">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711257931321</updated>
       <workItem from="1711257932414" duration="1162000" />
-      <workItem from="1711263197690" duration="1768000" />
+      <workItem from="1711263197690" duration="2102000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <option name="closed" value="true" />
@@ -207,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711258944553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="getAll customer">
+      <option name="closed" value="true" />
+      <created>1711269456563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711269456563</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +224,7 @@
     <MESSAGE value="web app config added" />
     <MESSAGE value="web root config added" />
     <MESSAGE value="app initializer updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="app initializer updated" />
+    <MESSAGE value="getAll customer" />
+    <option name="LAST_COMMIT_MESSAGE" value="getAll customer" />
   </component>
 </project>

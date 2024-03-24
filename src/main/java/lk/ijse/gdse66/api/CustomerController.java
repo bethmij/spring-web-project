@@ -2,10 +2,7 @@ package lk.ijse.gdse66.api;
 
 import lk.ijse.gdse66.dto.CustomerDTO;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
@@ -24,6 +21,13 @@ public class CustomerController {
     }
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void saveCustomer(@RequestBody CustomerDTO customer){
+        System.out.println(customer);
+    }
 
+    @DeleteMapping(value = "/{id}")
+    public void deleteCustomer(@PathVariable("id") String id){
+        System.out.println(id);
+    }
 
 }
