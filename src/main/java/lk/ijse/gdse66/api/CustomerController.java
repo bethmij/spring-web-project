@@ -30,4 +30,9 @@ public class CustomerController {
         System.out.printf("cusID : %s",id);
     }
 
+    @PatchMapping(value = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void updateCustomer(@PathVariable("id") String id, @RequestBody CustomerDTO customer){
+        System.out.printf("%s : %s", id, customer);
+    }
+
 }
