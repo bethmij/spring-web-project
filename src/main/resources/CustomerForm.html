@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POS System</title>
+    <link rel="stylesheet" href="../resources/assests/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/assests/css/index.css">
+    <link rel="stylesheet" href="../resources/assests/font-awesome/css/all.min.css">
+
+
+
+</head>
+<body >
+<header>
+    <nav class="navbar bg-body-tertiary p-0 z-3" >
+        <div class="container-fluid position-fixed top-0 p-0 " style="background-color: #252525; height: 60px;" >
+            <a class="navbar-brand " style="color: #919191;">
+                <img src="../resources/assests/img/Green_Leaf_Aesthetic_Organic_Skincare_Logo__2_-removebg-preview.png" alt="Logo" width="15%"  class="d-inline-block align-text-top ms-3">
+                <label class="position-absolute fs-4 ms-2" style="">    Harvest Mart Pos System</label>
+                <img  id="menu" class="d-none" src="../resources/assests/img/icons8-menu-100.png" alt="Logo" width="100%" >
+            </a>
+            <div class="container  h-100 position-absolute end-0 " style="width:35%;" >
+                <div class="row w-100 h-100">
+                    <div id="currDate" class="col  text-white-50  text-center mt-3" style="font-size: 1.2vw;"></div>
+                    <div id="currTime" class="col  text-white-50  text-center mt-3" style="font-size: 1.2vw;"></div>
+                    <div class="col  ">
+                        <i class="fa-regular fa-circle-user fa-2x mt-3 ms-2 p-0" style="color: #014919;"></i>
+                        <p class="text-white-50 d-inline-block  ms-3 mt-3 position-absolute" style="font-size: 1.2vw;">Sign Up</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+
+<main id="customerContent" style="display: block" >
+    <div class="container-fluid text-center position-relative">
+        <div class="row">
+            <div  class="menuContainer col-sm-1 col-md-1  p-0 " style="height: 91vh; margin-top: 60px;">
+                <nav  class=" navbar  p-0 position-relative" style="height: 100%; width:60%; background-color: #171717; z-index: 0">
+
+                    <div style="width:70%; height: 20vw ; top: 1vw" class=" bg-transparent d-flex flex-column position-absolute ">
+                        <a class="menuBtn btnHome mb-5 p-0 ms-2" href="#">
+                            <img src="../resources/assests/img/Screenshot__540_-removebg-preview.png" alt="Logo" width="90%" style="opacity: 0.5;">
+                        </a>
+                        <a class="menuBtn btnCustomer position-relative mb-5 ms-2" href="#">
+                            <div class=" position-absolute " style="width: 5.5vw; height: 4vw; top: -1vw; left: -1vw; border-right: 3px solid #0d4920; background-color:#030E00; z-index: -1;"></div>
+                            <img src="../resources/assests/img/Screenshot__541_-removebg-preview.png" alt="Logo" width="90%" style="z-index: 10;" >
+                        </a>
+                        <a class="menuBtn  btnItem mb-5 ms-2" href="#" >
+                            <img src="../resources/assests/img/Screenshot__546_-removebg-preview.png" alt="Logo" width="90%" style="opacity: 0.5;">
+                        </a>
+                        <a class="menuBtn btnOrder mb-5 ms-2" href="#">
+                            <img src="../resources/assests/img/Screenshot__543_-removebg-preview.png" alt="Logo" width="90%" style="opacity: 0.5;">
+                        </a>
+                    </div>
+                    <div style="width:70%; height: 10vw; bottom: 0vw;" class="menuBtn  bg-transparent d-flex flex-column position-absolute ">
+                        <a class="mb-5 p-0 ms-2" href="#">
+                            <img src="../resources/assests/img/Screenshot__545_-removebg-preview.png" alt="Logo" width="80%" style="opacity: 0.5;">
+                        </a>
+                        <a class="menuBtn mb-5 ms-2" href="#">
+                            <img src="../resources/assests/img/Screenshot__544_-removebg-preview.png" alt="Logo" width="80%" style="opacity: 0.5;">
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+            <div class="col-sm-12 col-md-5  position-relative" style="height: 82vh; margin-top: 90px;">
+                <div class=" position-absolute  p-0 mt-3" style="height: 97%; width: 95%; background-color: #151515">
+                    <div class="position-relative" style="width: 100%; height: 15%; background-color: #252525" >
+                        <img src="../resources/assests/img/Screenshot__541_-removebg-preview.png" alt="Logo" width="10%" class=" position-absolute " style="left: 5vw; top: 1vw">
+                        <h1 class="text-center  top-50 start-50 translate-middle position-absolute fs-2" style="color: #019D30; ">Manage Customer</h1>
+                    </div>
+
+                    <form id="cusForm" class="container-fluid  mt-4 " style="height: 76%; ">
+                        <div class=" row row-cols-1 p-3 justify-content-center" style="height: calc(100%/5)">
+                            <label for="txtCusID" class="form-label"></label>
+                            <input id="txtCusID" class=" cusInput input form-control text-white " name="cusID" placeholder="Customer ID" style="height: 90%; width: 70%; background-color: #252525;"
+                                   data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Customer ID">
+                            <p id="cusIDPara" class="text-danger-emphasis text-start" style="width: 70%;"></p>
+                        </div>
+                        <div class="row row-cols-1 p-3 justify-content-center" style="height: calc(100%/5)">
+                            <label for="txtCusName" class="form-label"></label>
+                            <input id="txtCusName" class=" cusInput input form-control text-white " name="cusName" placeholder="Customer Name" style="height: 90%; width: 70%; background-color: #252525;"
+                                   data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Customer Name">
+                            <p id="cusNamePara" class="text-danger-emphasis text-start ms-5" style="width: 85%;;"></p>
+                        </div>
+                        <div class="row row-cols-1 p-3 justify-content-center" style="height: calc(100%/5)">
+                            <label for="txtCusAddress" class="form-label"></label>
+                            <input id="txtCusAddress" class=" cusInput input form-control text-white " name="cusAddress" placeholder="Customer Address" style="height: 90%; width: 70%; background-color: #252525;"
+                                   data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Customer Address">
+                            <p id="cusAddressPara" class="text-danger-emphasis text-start" style="width: 70%;"></p>
+                        </div>
+                        <div class="row row-cols-1 p-3 justify-content-center" style="height: calc(100%/5)">
+                            <label for="txtCusSalary" class="form-label"></label>
+                            <input id="txtCusSalary" class=" cusInput input form-control text-white " name="cusSalary" placeholder="Customer Salary" style="height: 90%; width: 70%; background-color: #252525;"
+                                   data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Customer Salary">
+                            <p id="cusSalaryPara" class="text-danger-emphasis text-start" style="width: 70%;"></p>
+                        </div>
+                        <div class="row p-3" style="height: calc(100%/5)">
+                            <div class="col"><button id="clear" type="submit"  class="btn btn-outline-danger ms-5 " style="width: 10vw; " >Clear</button></div>
+                            <div class="col "><button id="btnSave"  type="submit" class="btn  btn-outline-success me-5" style="width: 10vw;">Save </button></div>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+            <div  class="col-sm-12 col-md-6  position-relative p-0 " style="height: 89vh; margin-top: 60px;">
+                <div class=" tableContent container-fluid position-absolute mt-3" style=" height: 100%; ">
+                    <div class="row  p-4" style="height: calc((100%/4)*1)" >
+                        <div class="container-fluid " style="height: 100%">
+                            <div class="row " style="height: calc(100%/2)">
+                                <div class="col-9 ">
+                                    <input id="txtSearch" class="search form-control me-2 bg-transparent text-white-50" type="search" style="height: 90%;" placeholder="Search" aria-label="Search">
+                                </div>
+                                <div class="col-3 mt-2"><button id="btnSearch" class="btn btn-outline-success" type="submit" style="height: 90%; width:100%;">Search</button></div>
+                            </div>
+                            <div class="row justify-content-end" style="height: calc(100%/2)">
+                                <div class="col-3 "></div>
+                                <div class="col-3 " >
+                                    <button id="getAll" type="submit" class="btn btn-outline-success mt-3" style="height: 70%; width:100%; " ><img src="../resources/assests/img/Screenshot__550_-removebg-preview.png" alt="Logo" width="20%" class="opacity-50 me-2">Get All</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row tableDiv " style="height: calc((100%/4)*2.7)">
+                        <div class="col" style="">
+                            <table id="cusTable" class="table table table-striped table-hover table-dark">
+                                <thead>
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Address</th>
+                                    <th scope="col">Salary (LKR)</th>
+                                    <th scope="col"></th>
+                                </tr>
+                                </thead>
+                                <tbody id="cusTBody">
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<script src="../resources/assests/js/jquery-3.7.1.min.js"></script>
+<script src="../resources/assests/css/bootstrap/js/bootstrap.js"></script>
+<script type="module" src="../resources/assests/js/CustomerController.js"></script>
+<!--<script src="../resources/assests/js/CustomerValidation.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+</script>
+
+<script>
+
+</script>
+</body>
+</html>
