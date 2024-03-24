@@ -5,9 +5,11 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 @RestController
 @RequestMapping("customers")
+@CrossOrigin
 public class CustomerController {
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
@@ -38,6 +40,11 @@ public class CustomerController {
     @GetMapping("/{id}")
     public CustomerDTO searchCustomer(@PathVariable("id") String id){
         return new CustomerDTO("C00-004", "Kusum", "Matara", 60000);
+    }
+
+    @GetMapping("/cusIDList")
+    public ArrayList<String> getCusIDList(){
+        return new ArrayList<>(Arrays.asList("C00-001", "C00-002", "C00-003"));
     }
 
 }
