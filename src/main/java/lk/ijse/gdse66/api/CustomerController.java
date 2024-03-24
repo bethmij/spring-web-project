@@ -27,7 +27,7 @@ public class CustomerController {
 
     @DeleteMapping(value = "/{id}")
     public void deleteCustomer(@PathVariable("id") String id){
-        System.out.println(id);
+        System.out.printf("cusID : %s",id);
     }
 
 }
