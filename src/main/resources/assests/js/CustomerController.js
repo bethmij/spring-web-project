@@ -153,17 +153,16 @@ function getAll() {
         url: "http://localhost:8080/spring/customers",
         method: "GET",
         success: function (resp, status, xhr) {
-
             if(xhr.status===200) {
                 let cusBody = $("#cusTBody");
                 cusBody.empty();
                 for (let customer of resp) {
                     cusBody.append(`
                         <tr>
-                            <th scope="row">${customer.cusID}</th>
-                            <td>${customer.cusName}</td>
-                            <td>${customer.cusAddress}</td>
-                            <td>${customer.cusSalary}</td>
+                            <th scope="row">${customer.id}</th>
+                            <td>${customer.name}</td>
+                            <td>${customer.address}</td>
+                            <td>${customer.salary}</td>
                             <td style="width: 10%;"><img  class="delete"  src="../resources/assests/img/icons8-delete-96.png" alt="Logo" width="50%" style="opacity: 100%;" "></td>
                         </tr>`);
                     deleteDetail();
@@ -266,10 +265,10 @@ $('#btnSearch').click(function (){
                         cusTBody.empty();
                         cusTBody.append(`
                                 <tr>
-                                   <th scope="row">${resp.cusID}</th>
-                                   <td>${resp.cusName}</td>
-                                   <td>${resp.cusAddress}</td>
-                                   <td>${resp.cusSalary}</td>
+                                   <th scope="row">${resp.id}</th>
+                                   <td>${resp.name}</td>
+                                   <td>${resp.address}</td>
+                                   <td>${resp.salary}</td>
                                    <td style="width: 10%;"><img  class="delete"  src="../resources/assests/img/icons8-delete-96.png" alt="Logo" width="50%" class="opacity-75"></td>
                                 </tr>`)
 
