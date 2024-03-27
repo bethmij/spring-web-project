@@ -9,34 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024c49e-2f98-47f0-9aa9-a5f230136f46" name="Changes" comment="customer updated">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/css/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Green_Leaf_Aesthetic_Organic_Skincare_Logo__2_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__540_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__541_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__542_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__543_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__544_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__545_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__546_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__547_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__549_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__550_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-cart-100_(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-customer-100_(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-delete-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-item-100_(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-menu-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/imgonline-com-ua-ReplaceColor-LlnI7ILIDhL9E7O.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CustomerForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/CustomerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerDTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/CustomerDTO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/CustomerValidation.js" afterDir="false" />
-    </list>
+    <list default="true" id="f024c49e-2f98-47f0-9aa9-a5f230136f46" name="Changes" comment="customer updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +190,7 @@
       <workItem from="1711272410366" duration="2734000" />
       <workItem from="1711275764111" duration="1701000" />
       <workItem from="1711516991149" duration="1010000" />
-      <workItem from="1711518586595" duration="892000" />
+      <workItem from="1711518586595" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <option name="closed" value="true" />
@@ -331,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711277115008</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="customer updated">
+      <option name="closed" value="true" />
+      <created>1711519753028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711519753028</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
