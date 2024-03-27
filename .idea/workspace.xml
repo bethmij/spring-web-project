@@ -10,10 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f024c49e-2f98-47f0-9aa9-a5f230136f46" name="Changes" comment="customer updated">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/css/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Green_Leaf_Aesthetic_Organic_Skincare_Logo__2_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__540_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__541_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__542_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__543_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__544_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__545_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__546_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__547_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__549_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/Screenshot__550_-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-cart-100_(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-customer-100_(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-delete-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-item-100_(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/icons8-menu-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/img/imgonline-com-ua-ReplaceColor-LlnI7ILIDhL9E7O.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse66/api/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerDTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerDTO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CustomerForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/CustomerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerDTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/CustomerDTO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assests/js/CustomerValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/CustomerValidation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +77,30 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.19.executor": "Run",
+    "Tomcat Server.Tomcat 10.1.20.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/bethmij/IJSE/Working Projects/spring-web-project/src/main/webapp",
+    "last_opened_file_path": "/media/bethmij/New Volume/IJSE/spring-web-project/src/main/resources/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assests/js/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/ass" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/assests/js" />
       <recent name="$PROJECT_DIR$/src/main/resources/assests" />
@@ -81,7 +108,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 10.1.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -189,6 +216,8 @@
       <workItem from="1711263197690" duration="3280000" />
       <workItem from="1711272410366" duration="2734000" />
       <workItem from="1711275764111" duration="1701000" />
+      <workItem from="1711516991149" duration="1010000" />
+      <workItem from="1711518586595" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <option name="closed" value="true" />
@@ -322,5 +351,9 @@
     <MESSAGE value="customer form added" />
     <MESSAGE value="customer updated" />
     <option name="LAST_COMMIT_MESSAGE" value="customer updated" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

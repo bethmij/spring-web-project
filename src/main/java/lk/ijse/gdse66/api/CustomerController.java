@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 @RestController
-@RequestMapping("customers")
+@RequestMapping("/api/v1/customers")
 @CrossOrigin
 public class CustomerController {
 

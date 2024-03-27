@@ -44,7 +44,7 @@ btnCustomerSave.click(function (event){
                     getCusIDList( function (IDList) {
                         if (!(IDList.includes(cusId.val()))) {
                             $.ajax({
-                                url: "http://localhost:8080/spring/customers",
+                                url: "http://localhost:8080/spring/api/v1/customers",
                                 method: "POST",
                                 contentType: "application/json",
                                 data: JSON.stringify(newCustomer),
@@ -93,7 +93,7 @@ btnCustomerSave.click(function (event){
                 newCustomer.salary = cusSalary.val();
 
                 $.ajax({
-                    url: "http://localhost:8080/spring/customers/"+newCustomer.id,
+                    url: "http://localhost:8080/spring/api/v1/customers/"+newCustomer.id,
                     method: "PATCH",
                     contentType: "application/json",
                     data: JSON.stringify(newCustomer),
@@ -150,7 +150,7 @@ $('#getAll').click(function (){
 function getAll() {
 
     $.ajax({
-        url: "http://localhost:8080/spring/customers",
+        url: "http://localhost:8080/spring/api/v1/customers",
         method: "GET",
         success: function (resp, status, xhr) {
             if(xhr.status===200) {
@@ -220,7 +220,7 @@ function deleteDetail() {
                 let cusID = $(deleteRow.children(':nth-child(1)')).text();
 
                 $.ajax({
-                    url: "http://localhost:8080/spring/customers/"+ cusID,
+                    url: "http://localhost:8080/spring/api/v1/customers/"+ cusID,
                     method: "DELETE",
                     success: function (resp, status, xhr) {
                         if (xhr.status === 200) {
@@ -240,7 +240,7 @@ function deleteDetail() {
 
 export function getCustomerList(id, callback) {
     $.ajax({
-        url: "http://localhost:8080/spring/customers/" + id,
+        url: "http://localhost:8080/spring/api/v1/customers/" + id,
         method: "GET",
         success: function (resp, status, xhr) {
             callback(resp, xhr);
@@ -259,7 +259,7 @@ $('#btnSearch').click(function (){
         getCusIDList( function (IDList) {
             if (IDList.includes(id)) {
                 $.ajax({
-                    url: "http://localhost:8080/spring/customers/" + id,
+                    url: "http://localhost:8080/spring/api/v1/customers/" + id,
                     method: "GET",
                     success: function (resp) {
                         cusTBody.empty();
@@ -292,7 +292,7 @@ $('#btnSearch').click(function (){
 export function getCusIDList(callback) {
     let cusIDList = [];
     $.ajax({
-        url: "http://localhost:8080/spring/customers/cusIDList",
+        url: "http://localhost:8080/spring/api/v1/customers/cusIDList",
         method: "GET",
         success: function (resp, status, xhr) {
             if(xhr.status === 200) {
