@@ -1,5 +1,7 @@
 package lk.ijse.gdse66;
 
+import lk.ijse.gdse66.config.WebAppConfig;
+import lk.ijse.gdse66.config.WebRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
